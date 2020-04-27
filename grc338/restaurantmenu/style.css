@@ -4,9 +4,11 @@ h1 {
     color: #FFFFFF;
     background-color: #0BC5E3;
     padding: .5em;
+    padding-bottom: 0;
     font-size: 3em;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
 }
 
 /* MAIN MENU */
@@ -17,7 +19,7 @@ h2 {
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 6em 0 6em;
+    margin: 0 25% 0 25%;
 }
 
 /* APP, SALAD, ENTREE, DESSERT */
@@ -27,6 +29,7 @@ h3 {
     font-family: sans-serif;
     text-transform: uppercase;
     padding: .25em;
+    margin: 0 75% 0 0;
 }
 
 /* DISH NAME */
