@@ -1,0 +1,112 @@
+/*CSS DOCUMENT*/
+
+body {
+    background-color: #EFD4B1;
+    font-family: sans-serif;
+}
+
+div.container {
+    max-width: 80em;
+    margin: auto;
+}
+
+
+/* HEADER */
+.container header{
+    color: #EFD4B1;
+    background-color: #731702;
+}
+
+h1 {
+    font-family:cursive;
+    font-size: 3.5em;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-top: .5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* PICTURE & DESCRIPTION */
+
+img {
+    width: 100%;
+}
+
+.introimage {
+    box-sizing: border-box;
+    background: url(johnsonvillelasagna.jpeg) no-repeat;
+    width: 827px;
+    height: 620px;
+    padding-left: 827px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro p{
+    color: #401801;
+    font-style: oblique;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;   
+}
+
+/* INGREDIENTS & DIRECTIONS */
+div.maincontent {
+    width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.ingredients {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.ingredients li {
+    font-weight: bold;
+    font-size: .25em;
+    text-transform: uppercase;
+    line-height: 225%;
+}
+
+div.directions{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+h3 {
+    color: #EFD4B1;
+    font-family: cursive;
+    font-size: 1.5em;
+    background-color: #731702;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .15em;
+    width: 95%
+}
+
+li{
+    color: #401801;
+    font-size: 110%;
+}
+
+/* FOOTER */
+
+footer {
+    float: left;
+    clear: both;
+}
