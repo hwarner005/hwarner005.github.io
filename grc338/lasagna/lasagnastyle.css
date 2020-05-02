@@ -67,7 +67,7 @@ div.ingredients {
 
 .ingredients li {
     font-weight: bold;
-    font-size: .25em;
+    font-size: 1em;
     text-transform: uppercase;
     line-height: 225%;
 }
