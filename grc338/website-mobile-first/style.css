@@ -1,0 +1,79 @@
+/* CSS DOCUMENT */
+
+
+/* PICS */
+img{
+    width: 100%;
+}
+
+/* ALL TEXT */
+body {
+    font-family: sans-serif;
+}
+
+
+/* LOGO */
+h1 {
+    width: 10em;
+    font-size: 1em;
+    float: left;
+}
+
+/* ABOUT MENU LOCATION */
+nav {
+    text-transform: uppercase;
+    background-color: #93C83E;
+    padding: .5em .5em .5em .5em;
+    margin: 0 0 0 60%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+}
+
+/* ALL TITLES */
+h2, h3 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: .5em 0 .5em 1em;
+}
+
+/* FOOD CATEGORIES, ABOUT US, COME VISIT, & WELCOME */
+h2 {
+    background-color: #44BDED;
+    margin: 1em 0 0 0;
+    padding-left: .5em;
+}
+
+/* FOOD NAMES, JOIN US, DTWON SLO, & NEVER LEAVE HUNGRY */
+h3 {
+    color: #F68B1F;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+
+/* UNORDERED LISTS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* FOOD DESCRIPTIONS */
+.menu p {
+    margin: 1em;
+}
+
+/* ABOUT PAGE PIC */
+div.intro{
+    float: right;
+    width: 50%;
+    padding: 3.2em 0 0 0;
+}
+
+div.aboutintro{
+    width: 47%;
+    float: left;
+    padding-right: 1em;
+}
