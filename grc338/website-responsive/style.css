@@ -1,0 +1,123 @@
+/* CSS DOCUMENT */
+
+
+/* PICS */
+img{
+    width: 100%;
+}
+
+/* ALL TEXT */
+body {
+    font-family: sans-serif;
+}
+
+
+/* LOGO */
+h1 {
+    width: 10em;
+    font-size: 1em;
+    float: left;
+}
+
+/* ABOUT MENU LOCATION */
+nav { /*CONTAINER*/
+    background-color: #93C83E;
+    padding: .5em .5em .5em .5em;
+    margin: 0 0 0 60%;
+    text-align: center;
+    align-content: center;
+}
+
+nav ul li { /*ITEMS*/
+    list-style: none;
+    display: inline;
+    margin: 0 1em 0 1em;
+    text-transform: uppercase;
+}
+
+nav ul li a{ /*LINK*/
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link, a:visited {
+  color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000000;
+}
+
+/* ALL TITLES */
+h2, h3 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: .5em 0 .5em 1em;
+}
+
+/* FOOD CATEGORIES, ABOUT US, COME VISIT, & WELCOME */
+h2 {
+    background-color: #44BDED; /* blue */
+    margin: 1em 0 0 0;
+    padding: .5em .5em .5em .5em;
+    text-align: left;
+}
+
+/* FOOD NAMES, JOIN US, DTWON SLO, & NEVER LEAVE HUNGRY */
+h3 {
+    color: #F68B1F;
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+
+/* UNORDERED LISTS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* FOOD DESCRIPTIONS */
+.menu p {
+    margin-top: 0em;
+}
+
+/* FOOD NAMES */
+.menu h3 {
+    margin: 0em;
+    padding: 0em;
+}
+
+.map p {
+    margin: 1em;
+}
+
+.about p{
+    margin: 1em;
+}
+
+/* RESPONSIVE WEB DESIGN */
+div.aboutintro, div.blurb{
+    max-width: 40em;
+}
+
+div.menu {
+    max-width: 100em;
+    margin: auto;
+}
+
+@media only screen and (min-width: 25em) {
+    div.southoftheborder, div.mammamia, div.quenchyourthirst, div.sweettooth {
+        width: 100%;
+        float: left;
+        margin-right: 5em;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+    div.southoftheborder, div.mammamia, div.quenchyourthirst, div.sweettooth {
+        width: 18%;
+        float: left;
+        margin-right: 5em;
+    }
+}
