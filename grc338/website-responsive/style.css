@@ -1,8 +1,7 @@
 /* CSS DOCUMENT */
 
-
 /* PICS */
-img{
+img {
     width: 100%;
 }
 
@@ -10,7 +9,6 @@ img{
 body {
     font-family: sans-serif;
 }
-
 
 /* LOGO */
 h1 {
@@ -20,53 +18,58 @@ h1 {
 }
 
 /* ABOUT MENU LOCATION */
-nav { /*CONTAINER*/
-    background-color: #93C83E;
-    padding: .5em .5em .5em .5em;
+nav {
+    /*CONTAINER*/
+    background-color: #93c83e;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     margin: 0 0 0 60%;
     text-align: center;
     align-content: center;
 }
 
-nav ul li { /*ITEMS*/
+nav ul li {
+    /*ITEMS*/
     list-style: none;
     display: inline;
     margin: 0 1em 0 1em;
     text-transform: uppercase;
 }
 
-nav ul li a{ /*LINK*/
+nav ul li a {
+    /*LINK*/
     text-decoration: none;
 }
 
 /* unvisited link */
-a:link, a:visited {
-  color: #FFFFFF;
+a:link,
+a:visited {
+    color: #ffffff;
 }
 
 /* mouse over link */
 a:hover {
-  color: #000000;
+    color: #000000;
 }
 
 /* ALL TITLES */
-h2, h3 {
+h2,
+h3 {
     text-transform: uppercase;
-    color: #FFFFFF;
-    padding: .5em 0 .5em 1em;
+    color: #ffffff;
+    padding: 0.5em 0 0.5em 1em;
 }
 
 /* FOOD CATEGORIES, ABOUT US, COME VISIT, & WELCOME */
 h2 {
-    background-color: #44BDED; /* blue */
+    background-color: #44bded; /* blue */
     margin: 1em 0 0 0;
-    padding: .5em .5em .5em .5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     text-align: left;
 }
 
 /* FOOD NAMES, JOIN US, DTWON SLO, & NEVER LEAVE HUNGRY */
 h3 {
-    color: #F68B1F;
+    color: #f68b1f;
     font-size: 1em;
     margin: 0 0 1em 0;
 }
@@ -92,12 +95,13 @@ ul {
     margin: 1em;
 }
 
-.about p{
+.about p {
     margin: 1em;
 }
 
 /* RESPONSIVE WEB DESIGN */
-div.aboutintro, div.blurb{
+div.aboutintro,
+div.blurb {
     max-width: 40em;
 }
 
@@ -107,7 +111,10 @@ div.menu {
 }
 
 @media only screen and (min-width: 25em) {
-    div.southoftheborder, div.mammamia, div.quenchyourthirst, div.sweettooth {
+    div.southoftheborder,
+    div.mammamia,
+    div.quenchyourthirst,
+    div.sweettooth {
         width: 100%;
         float: left;
         margin-right: 5em;
@@ -115,7 +122,10 @@ div.menu {
 }
 
 @media only screen and (min-width: 50em) {
-    div.southoftheborder, div.mammamia, div.quenchyourthirst, div.sweettooth {
+    div.southoftheborder,
+    div.mammamia,
+    div.quenchyourthirst,
+    div.sweettooth {
         width: 18%;
         float: left;
         margin-right: 5em;
