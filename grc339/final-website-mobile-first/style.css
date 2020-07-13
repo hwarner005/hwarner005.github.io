@@ -1,0 +1,98 @@
+/*CSS document*/
+
+body {
+    background-color: #e8d9c1;
+    text-decoration: none;
+    color: #000000;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div.mainstory{
+    outline: 15px solid #a9cae8;
+}
+
+div.kingofcountry{
+    background-color: #a9cae8;
+    margin-bottom: 2em;
+}
+
+div.phototeaser{
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+div.textteaser{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #e8b7c2;
+}
+
+/* ARTICLE TITLES */
+h3{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    color: #000000;
+}
+
+/* WHOLE CONTAINER */
+nav{
+    background-color: #fff;
+    padding: .25em;
+    margin-bottom: 2em;
+    text-align: center;
+    align-content: center;
+}
+
+/* ITEMS */
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 1em 0 1em;
+    text-transform: uppercase;
+}
+
+/* NAVS ON TOP */
+nav ul li a{
+    color: #000000;
+    text-decoration: none;   
+}
+
+p{
+    margin: 0 0 1em 0;
+    color: #000000;
+}
+
+div.mainphotos{
+    outline: 15px solid #a9cae8;
+    margin: 3em 0 3em 0;
+}
+
+h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+div.aside{
+    margin-top: 15em;
+    outline: 15px solid #000;
+    padding: 1em;
+}
