@@ -1,5 +1,6 @@
 /*CSS document*/
 
+                                /* MOBILE ONLY CSS */
 body {
     background-color: #e8d9c1;
     text-decoration: none;
@@ -8,7 +9,8 @@ body {
 
 div.container {
     max-width: 40em;
-    margin: auto;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 figure {
@@ -54,7 +56,7 @@ h3{
 }
 
 /* WHOLE CONTAINER */
-nav{
+#headnav{
     background-color: #fff;
     padding: .25em;
     margin-bottom: 2em;
@@ -86,7 +88,7 @@ div.mainphotos{
     margin: 3em 0 3em 0;
 }
 
-h2{
+h1, h2{
     font-family: sans-serif;
     text-transform: uppercase;
 }
@@ -95,4 +97,55 @@ div.aside{
     margin-top: 15em;
     outline: 15px solid #000;
     padding: 1em;
+}                                       
+
+                                    /* GALLERY CSS */
+
+
+h1 {
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+
+main {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(72% + 3em);
+}
+
+.gallery figure{
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.gallery figcaption {
+    margin: 1em 0;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
+}
+
+#gallerynav {
+    display: flex;
+    grid-template-columns: 8, 1fr;
+    grid-gap: 10000em;
+}
+
+.gallery input {
+    display: none;
+}
+
+#gallerynav img{
+    width: 100%;
 }
