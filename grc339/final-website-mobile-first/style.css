@@ -111,11 +111,11 @@ h1 {
 main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(72% + 3em);
+    padding-bottom: calc(100% + 5em);
 }
 
 .gallery figure{
-    width: calc(100%-2em);
+    width: 100%;
     position: absolute;
     opacity: 0;
     transition: opacity .5s;
@@ -139,13 +139,8 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 #gallerynav {
     display: flex;
     grid-template-columns: 8, 1fr;
-    grid-gap: 10000em;
 }
 
 .gallery input {
     display: none;
-}
-
-#gallerynav img{
-    width: 100%;
 }
