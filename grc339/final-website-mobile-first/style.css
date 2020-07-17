@@ -33,6 +33,7 @@ div.mainstory{
 div.kingofcountry{
     background-color: #a9cae8;
     margin-bottom: 2em;
+    padding: .5em;
 }
 
 div.phototeaser{
@@ -69,6 +70,7 @@ nav ul li{
     list-style: none;
     display: inline;
     padding: 0 1em 0 1em;
+    font-family: sans-serif;
     text-transform: uppercase;
 }
 
@@ -108,7 +110,7 @@ h1 {
 }
 
 
-main {
+.gallery main {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(100% + 5em);
