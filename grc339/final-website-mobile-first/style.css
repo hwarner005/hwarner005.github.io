@@ -1,6 +1,6 @@
 /*CSS document*/
 
-                                /* MOBILE ONLY CSS */
+/* MOBILE ONLY CSS */
 body {
     background-color: #e8d9c1;
     text-decoration: none;
@@ -26,30 +26,30 @@ ul {
     padding: 0;
 }
 
-div.mainstory{
+div.mainstory {
     outline: 15px solid #a9cae8;
 }
 
-div.kingofcountry{
+div.kingofcountry {
     background-color: #a9cae8;
     margin-bottom: 2em;
-    padding: .5em;
+    padding: 0.5em;
 }
 
-div.phototeaser{
+div.phototeaser {
     background-color: #ffffff;
     margin-top: 1em;
     padding: 1em;
 }
 
-div.textteaser{
+div.textteaser {
     margin-top: 1em;
     padding: 1em;
     background-color: #e8b7c2;
 }
 
 /* ARTICLE TITLES */
-h3{
+h3 {
     font-family: sans-serif;
     text-transform: uppercase;
     margin: 0;
@@ -57,16 +57,16 @@ h3{
 }
 
 /* WHOLE CONTAINER */
-#headnav{
+#headnav {
     background-color: #fff;
-    padding: .25em;
+    padding: 0.25em;
     margin-bottom: 2em;
     text-align: center;
     align-content: center;
 }
 
 /* ITEMS */
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline;
     padding: 0 1em 0 1em;
@@ -75,40 +75,39 @@ nav ul li{
 }
 
 /* NAVS ON TOP */
-nav ul li a{
+nav ul li a {
     color: #000000;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
-p{
+p {
     margin: 0 0 1em 0;
     color: #000000;
 }
 
-div.mainphotos{
+div.mainphotos {
     outline: 15px solid #a9cae8;
     margin: 3em 0 3em 0;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: sans-serif;
     text-transform: uppercase;
 }
 
-div.aside{
+div.aside {
     margin-top: 15em;
     outline: 15px solid #000;
     padding: 1em;
-}                                       
+}
 
-                                    /* GALLERY CSS */
-
+/* GALLERY CSS */
 
 h1 {
     padding-top: 2em;
     margin-bottom: 1em;
 }
-
 
 .gallery main {
     position: relative;
@@ -116,11 +115,11 @@ h1 {
     padding-bottom: calc(100% + 5em);
 }
 
-.gallery figure{
+.gallery figure {
     width: 100%;
     position: absolute;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
 .gallery figcaption {
@@ -134,7 +133,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8) {
     opacity: 1;
 }
 
