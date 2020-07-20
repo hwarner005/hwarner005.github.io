@@ -1,12 +1,6 @@
 /*CSS document*/
 
                                 /* MOBILE ONLY CSS */
-header {
-    align-content: center;
-    text-align: center;
-}
-
-
 body {
     color: #000000;
 }
@@ -208,7 +202,7 @@ section{ /* STORIES */
     main{
         grid-column: 1/2;
         display: grid;
-        grid-template-columns: repeat (3 1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-gap: 0 1em;
     }
     
